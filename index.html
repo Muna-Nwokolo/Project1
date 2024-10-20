@@ -5,12 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Scotland</title>
     <style>
-        li{
-            text-decoration: underline;
-        }
+      .menu {
+        display: flex;
+        gap: 90px;
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+      }
+      .logo {
+        width: 66px;
+      }
+      body {
+        background-color: lightblue;
+      }
+      li {
+        text-decoration: underline;
+      }
+
+      h1 {
+        text-transform: uppercase;
+      }
     </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <nav>
+      <img
+        src="https://windows10spotlight.com/wp-content/uploads/2023/01/81a6e74c8adbf7f55406e8c4b80669d5.jpg"
+        alt="Logo"
+        class="logo"
+      />
+      <ul class="menu">
+        <li>Home</li>
+        <li>About</li>
+        <li>Features</li>
+        <li>Contact us</li>
+      </ul>
+    </nav>
     <h1
       style="
         border: 10px dotted rgb(255, 255, 255);
